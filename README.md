@@ -99,13 +99,16 @@ __굵게쓰기(bold)__
 실행결과
 
 ---	
+
 ***	
+
 ___	
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-< 링크 Links > 
-외부 링크 External Links
+< 링크 Links >
+
+( 외부 링크 External Links )
 
 [링크](http://example.com "링크 제목") 인라인 링크
 
@@ -115,77 +118,95 @@ ___
 
 실행결과 
 
-인라인 링크
+( 인라인 링크 )
+
 [Google](http://www.google.co.kr “구글”)
 
-Google
-참조 링크 
+
+( 참조 링크 )
+
 [Google][1]
+
 [Naver][2]
+
 [1]: http://google.com/ “구글”
+
 [2]: http://naver.com/ “네이버”	
-Google
-Naver
-URl 링크
+
+( URl 링크 )
+
 <http://google.com/>
+
 <example@gmail.com/>	
-http://google.com
-example@gmail.com
-내부 링크 Internal (Anchored) Links
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+< 내부 링크 Internal (Anchored) Links >
+
 [링크](#id) 내부 링크
 
-마크다운	실행결과
-[목차](#index)	목차
-리스트 Lists
+실행결과
+
+[목차](#index)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+< 리스트 Lists >
+
 순서 있는 리스트 Ordered Lists
+
 No. 숫자 다음 .을 찍는다. (적힌 숫자랑 상관없이 순서대로 번호가 매겨진다.)
 
-마크다운	실행결과
+실행결과
+
 1. list item 1
+
 1. list item 2
+
 2. list item 3
+
 0. list item 4
+
 3. list item 5	
-list item 1
-list item 2
-list item 3
-list item 4
-list item 5
-순서 없는 리스트 Unordered Lists
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+< 순서 없는 리스트 Unordered Lists >
+
 *, +, - 으로 시작
 
-마크다운	실행결과
+실행결과
+
 * list item 1
     * list item 1-1
     * list item 1-2
-list item 1
-list item 1-1
-list item 1-2
+
 + list item 1
     + list item 1-1
     + list item 1-2
-list item 1
-list item 1-1
-list item 1-2
+
 - list item 1
     - list item 1-1
     - list item 1-2
-list item 1
-list item 1-1
-list item 1-2
-테이블 Tables
-마크다운	실행결과
-테이블 생성
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+< 테이블 Tables >
+
+실행결과
+
+( 테이블 생성 )
+
 Header 1 | Header 2
 --------- | ---------
 Content 1 | Content 3
 Content 2 | Content 4	
-Header 1	Header 2
-Content 1	Content 3
-Content 2	Content 4
-테이블 정렬
+
+( 테이블 정렬 )
+
 | Header 1 | Header 2 | Header 3 |
 | :-------- | :--------: | --------: |
 | Left | Center | Right |	
-Header 1	Header 2	Header 3
-Left	Center	Right
+
